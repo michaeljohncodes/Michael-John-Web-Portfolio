@@ -8,8 +8,42 @@
   background-color: #242424;
 }
 
+.colorPalete {
+  /* for buttons and font color and Background */
+  color: #06141b;
+  color: #11212d;
+  color: #253745;
+  color: #4a5c6a;
+  color: #9ba8ab;
+  color: #ccd0cf;
+}
 
 body {
   margin: 0;
-  /* color: black; */
+  background-image: linear-gradient(to bottom, #06141b, #253745, #9ba8ab);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header a:hover {
+  cursor: pointer;
+  border-top: #ccd0cf solid 2px;
+}
+.header nav:hover {
+  cursor: pointer;
+}
+.header a:active {
+  border-top: #ccd0cf solid 0.5px;
+}
+.header nav {
+  padding: 30px 20px 2px 20px;
+}
+
+.hero p button{
+  margin: 5px 0px;
+  padding: 2px 15px;
+border-right: 2px solid;
+}
+.hero p button:last-child{
+border-right:none;
 }

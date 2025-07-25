@@ -1,36 +1,49 @@
 const Header = () => {
   return (
-    <main className="w-[100%] fixed top-0 z-100 border ">
-      <div className=" max-w-[1200px] py-6 mx-auto flex h-full items-center justify-between ">
-        <section className=" min-w-[20%]">
-          <img src={""} alt="logo here" className=" w-[100%]" />
-        </section>
+    <>
+      <main className=" fixed w-[100%] top-0 z-100 bg-[#06141B] text-[#CCD0CF] ">
+        <div className=" header flex max-w-[2560px] mx-auto ">
+          <section className=" min-w-[90%] pb-1 mx-auto flex justify-between ">
+            <div className=" min-w-[20%] my-auto">
+              <img src={""} alt="logo here" className=" w-[100%]" />
+            </div>
 
-        <section className=" flex mx-12 gap-9 items-center font-medium max-tablet:hidden ">
-          <nav className="">
-            <a href="#">HOME</a>
-          </nav>
-          <nav className="">
-            <a href="#">ABOUT ME</a>
-          </nav>
-          <nav className="">
-            <a href="#">MY SERVICES</a>
-          </nav>
-          <nav className="">
-            <a href="#">PORTFOLIO</a>
-          </nav>
-          <nav className="">
-            <a href="#">RESUME</a>
-          </nav>
-          <nav className="">
-            <a href="#">CONTACT</a>
-          </nav>
-        </section>
-      </div>
-      {/* <div>
+            <div className=" flex items-center font-medium font-mono ">
+              <a href="#Hero">
+                <nav className="">HOME</nav>
+              </a>
+
+              <a href="#About">
+                <nav className="">ABOUT ME</nav>
+              </a>
+
+              <a href="#Services">
+                {" "}
+                <nav className="">MY SERVICES</nav>
+              </a>
+
+              <a href="#Portfolio">
+                {" "}
+                <nav className="">PORTFOLIO</nav>
+              </a>
+
+              <a href="#Experience">
+                {" "}
+                <nav className="">RESUME</nav>
+              </a>
+
+              <a href="#Contact">
+                {" "}
+                <nav className="">CONTACT</nav>
+              </a>
+            </div>
+          </section>
+          {/* <div>
           <SideNavBar />
         </div> */}
-    </main>
+        </div>
+      </main>
+    </>
   );
 };
 
