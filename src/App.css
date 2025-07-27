@@ -27,13 +27,20 @@ body {
 
 .header a:hover {
   cursor: pointer;
-  border-top: #ccd0cf solid 2px;
+  /* border-top: #ccd0cf solid 2px; */
+  border-bottom: #ccd0cf solid 2px;
+}
+.header a {
+  cursor: pointer;
+  /* border-top: #06141B solid 2px; */
+  border-bottom: #06141B solid 2px;
 }
 .header nav:hover {
   cursor: pointer;
 }
 .header a:active {
-  border-top: #ccd0cf solid 0.5px;
+  /* border-top: #ccd0cf solid 0.5px; */
+  border-bottom: #ccd0cf solid 0.5px;
 }
 .header nav {
   padding: 30px 20px 2px 20px;
