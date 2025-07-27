@@ -10,9 +10,11 @@ const Hero = () => {
         <section className=" flex flex-col gap-[10px] max-w-[50%] max-[835px]:min-w-[100%] max-[835px] ">
           <div className=" hero flex flex-col gap-[20px] items-start mt-[20px]">
             <h1 className=" text-[20px]"> Hello !</h1>
-            <p className=" text-[50px] font-medium font-mono ">
-              I am
-              <span style={{ color: "Red" }}> Michael</span> John{" "}
+            <p className=" flex flex-col text-[50px] font-medium font-mono ">
+              <span className=" text-[30px]">I am</span>
+              <p>
+                <span style={{ color: "Red" }}> Michael</span> John{" "}
+              </p>
             </p>
             <p className=" text-[15px] font-mono w-[100%] flex flex-wrap">
               <button>M.E.R.N Stack Web Developer</button>
@@ -24,7 +26,7 @@ const Hero = () => {
               <button>Sales and Business Developer.</button>
             </p>
 
-            <button className=" px-[15px] py-[8px] mt-[20px] rounded-[10px] border-[#06141b] border-[4px] text-[#06141b] font-medium">
+            <button className=" px-[15px] py-[8px] mt-[20px] rounded-[10px] border-[#CCD0CF] border-[4px] text-[#CCD0CF] font-medium">
               Download Resume
             </button>
           </div>
