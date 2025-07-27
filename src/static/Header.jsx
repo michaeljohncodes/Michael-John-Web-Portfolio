@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <>
       <main className=" fixed w-[100%] top-0 z-100 bg-[#06141B] text-[#CCD0CF] ">
-        <div className=" header border flex max-w-[2560px] mx-auto ">
-          <section className=" border min-w-[90%] pb-1 mx-auto flex justify-between max-[834px]:hidden">
+        <div className=" header flex max-w-[2560px] mx-auto ">
+          <section className=" min-w-[90%] pb-1 mx-auto flex justify-between max-[835px]:hidden">
             <div className=" min-w-[20%] my-auto">
               <img src={""} alt="logo here" className=" w-[100%]" />
             </div>

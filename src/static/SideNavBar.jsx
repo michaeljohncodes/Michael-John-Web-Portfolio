@@ -7,7 +7,7 @@ const SideNavBar = () => {
 
   return (
     <div>
-      <div className=" w-[100%] flex justify-between items-center bg-[#06141B] text-[#CCD0CF] p-[20px] fixed min-[834px]:hidden ">
+      <div className=" w-[100%] flex justify-between items-center bg-[#06141B] text-[#CCD0CF] p-[20px] fixed min-[835px]:hidden ">
         <div className=" min-w-[20%] my-auto">
           <img src={""} alt="logo here" className=" w-[100%]" />
         </div>
@@ -30,7 +30,7 @@ const SideNavBar = () => {
           !sideNav ? "hidden" : "h-screen w-[100%] space-y-[30px] px-[10px]"
         }
       >
-        <div className=" flex flex-col items-center h-[100%] w-[100%] mx-[150px] pt-[100px] gap-y-[10px] ">
+        <div className=" flex flex-col items-center h-[100%] w-[100%] mx-[160px] pt-[100px] gap-y-[10px] ">
           <a href="#Hero">
             <nav className="">HOME</nav>
           </a>
