@@ -23,6 +23,7 @@ body {
   background-image: linear-gradient(to bottom, #06141b, #253745, #9ba8ab);
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 .header a:hover {

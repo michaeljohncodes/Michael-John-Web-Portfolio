@@ -12,7 +12,7 @@ const Footer = () => {
           <div className=" text-[10px] ">(c) 2025. All Rights Reserved !</div>
         </section>
 
-        <section className=" flex flex-col text-right w-[30%] text-[10%]">
+        <section className=" flex flex-col text-right w-[30%] text-[10px]">
           <div>Design by : Michael John Chukwunyem</div>
           <div>
             {" "}
