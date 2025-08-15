@@ -9,8 +9,8 @@ const Hero = () => {
     <div
       id="home"
       className=" width h-[90vh] flex justify-center items-center pt-16
-    max-tablet:flex-col-reverse max-tablet:gap-8 max-tablet:pt-10
-    max-mobile:gap-6 max-mobile:pt-4
+    max-tablet:flex-col-reverse max-tablet:gap-8 max-tablet:pt-20
+    max-mobile:gap-6 max-mobile:pt-20
     "
     >
       <div className=" flex flex-col gap-4">
@@ -104,8 +104,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" border-2 rounded-[50%] contain-content overflow-hidden  w-[40%] pt-5  max-tablet:w-[45%] max-mobile:w-[65%]">
-        <img src={Photo} alt="" className=" scale-[110%]" />
+      <div className=" border-2 rounded-[50%] overflow-clip w-[35%] pt-5 max-tablet:w-[35%] max-mobile:w-[35%]">
+        <img src={Photo} alt="" className="w-[100%]" />
       </div>
     </div>
   );
