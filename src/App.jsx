@@ -1,26 +1,12 @@
-import "./App.css";
-import About from "./layouts/About";
-import Contact from "./layouts/Contact";
-import Hero from "./layouts/Hero";
-import Portfolio from "./layouts/Portfolio";
-import Services from "./layouts/Services";
-import WorkExperience from "./layouts/WorkExperience";
-import Footer from "./static/Footer";
-import Header from "./static/Header";
+import React from 'react'
+import Homepage from './pages/Homepage'
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Hero />
-      <About />
-      <Services />
-      <WorkExperience />
-      <Portfolio />
-      <Contact />
-      <Footer/>
+      <Homepage />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
