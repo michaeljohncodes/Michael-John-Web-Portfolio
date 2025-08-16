@@ -4,11 +4,11 @@ const About = () => {
   return (
     <div>
       <div>
-        <h2 className="text-white text-[43px] max-Laptop:text-[40px]">
+        <h2 className="text-[#dadadb] text-[43px] max-Laptop:text-[40px]">
           About me
         </h2>
         <p
-          className=" text-[14px] text-[#BDBDC1] leading-7 
+          className=" text-[14px] text-white leading-7 
         max-Laptop:text-[13px] max-Laptop:leading-5
         "
         >
@@ -17,7 +17,7 @@ const About = () => {
         </p>
       </div>
       <div className=" flex gap-14 mt-10 max-Laptop:gap-10 max-mobile:gap-6 max-mobile:flex-col">
-        <div className="text-[13px] text-[#BDBDC1] flex flex-col gap-5 max-mobile:text-[11px]">
+        <div className="text-[13px] text-[#dadadb] flex flex-col gap-5 max-mobile:text-[11px]">
           <p className="flex gap-4 max-Laptop:flex-col max-Laptop:items-start max-Laptop:gap-1 items-center max-mobile:flex-row max-mobile:items-center max-mobile:gap-6">
             Name{" "}
             <span className=" text-white text-[16px] max-mobile:text-[13px]">
@@ -43,7 +43,7 @@ const About = () => {
             </span>
           </p>
         </div>
-        <div className="text-[13px] text-[#BDBDC1] flex flex-col gap-5">
+        <div className="text-[13px] text-[#dadadb] flex flex-col gap-5">
           <a
             href="https://wa.me/2349091324697"
             target="_blank"

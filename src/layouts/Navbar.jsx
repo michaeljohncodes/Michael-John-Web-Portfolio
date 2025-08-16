@@ -1,9 +1,9 @@
-import React, {  useState } from 'react'
+import React, { useState } from "react";
 import { CgMenuMotion } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState(false);
 
   //   useEffect(() => {
   //   if (menu) {
@@ -18,39 +18,39 @@ const Navbar = () => {
   // }, [menu]);
   return (
     <>
-      <div className="max-mobile:px-2  fixed w-full top-0 z-50  backdrop-blur-2xl bg-[#1C1B22]/34">
+      <div className="max-mobile:px-2  fixed w-full top-0 z-50   backdrop-blur-lg bg-[#1C1B22]/15">
         <main className="width flex justify-between items-center h-20 ">
           <div className=" flex items-center gap-1 w-[35px]">
             <img src="" alt="" />
           </div>
-          <div className=" text-[13px] flex font-medium items-center gap-5 text-[#dadadb] max-mobile:hidden">
+          <div className=" text-[13px] flex font-medium items-center gap-2 text-[#dadadb] max-mobile:hidden">
             <a href="#home">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
                 Home
               </p>
             </a>
 
             {/* <a href="#service"><p className=' hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer'>Services</p></a> */}
             <a href="#resume">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
                 Resume
               </p>
             </a>
 
             <a href="#work">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
                 Work
               </p>
             </a>
 
             <a href="#contact">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
                 Contact
               </p>
             </a>
 
             <a href="#contact">
-              <button className=" border-2 border-[#00FD9A] text-black bg-[#00FD9A] py-1 px-2 rounded-xl hover:border-2 hover:text-[#dadadb] transition-colors duration-400 ease-in-out hover:border-[#00FD9A] hover:bg-[#00FD9A00] cursor-pointer">
+              <button className=" border-2 border-transparent text-black bg-[#00FD9A] py-1 px-5 rounded-xl hover:border-2 hover:text-[#00FD9A] transition-colors duration-400 ease-in-out hover:border-[#00FD9A] hover:bg-[#00FD9A00] cursor-pointer">
                 Hire me
               </button>
             </a>
@@ -101,6 +101,6 @@ const Navbar = () => {
       <div className="h-[60px]"></div>
     </>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
