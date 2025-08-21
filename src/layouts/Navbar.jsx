@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { CgMenuMotion } from "react-icons/cg";
+// import { CgMenuMotion } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
+import { CiMenuKebab } from "react-icons/ci";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -62,7 +63,7 @@ const Navbar = () => {
             {menu ? (
               <AiOutlineClose size={25} color="red" />
             ) : (
-              <CgMenuMotion size={30} color="#00FD9A" />
+              <CiMenuKebab size={20} color="#dadadb" />
             )}
           </div>
         </main>
