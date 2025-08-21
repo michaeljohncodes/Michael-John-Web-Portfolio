@@ -29,11 +29,13 @@ const Resume = () => {
             Why hire me?
           </h2>
           <p
-            className=" text-[#dadadb] w-[80%] mb-8 mt-5 leading-8 max-tablet:mx-auto max-tablet:mt-2 max-tablet:leading-6
+            className=" text-[#dadadb] w-[90%] mb-8 mt-5 leading-8 max-tablet:mx-auto max-tablet:mt-2 max-tablet:leading-6
           max-mobile:text-[14px]
           "
           >
-            Quick Result Driven Solutions.
+            "From pixels to pictures;
+            <br /> I don't just build websites, I create digital experiences
+            that stick."
           </p>
         </div>
         <div className=" flex flex-col gap-5 w-[400px] max-mobile:w-[300px]">

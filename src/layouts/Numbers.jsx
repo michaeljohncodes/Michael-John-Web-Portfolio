@@ -2,10 +2,6 @@ import { useEffect, useState } from 'react';
 
 const Experience = () => {
 
-
-
-
-
   const [commit, setCommit] = useState(0);
 
   useEffect(() => {
@@ -21,10 +17,6 @@ const Experience = () => {
 
     return () => clearInterval(interval); 
   }, []);
-
-
-
-
 
 
 
@@ -93,7 +85,7 @@ const Experience = () => {
       <div className="gap-2 flex items-center w-[250px] max-tablet:flex-col max-tablet:gap-1 max-tablet:w-[100%]">
         <p className="font-bold text-[56px] max-tablet:text-[40px]">{commit}</p>
         <p className="w-[60%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px] max-tablet:mt-">
-          Code commits{" "}
+          Minimum Code commits{" "}
         </p>
       </div>
     </div>

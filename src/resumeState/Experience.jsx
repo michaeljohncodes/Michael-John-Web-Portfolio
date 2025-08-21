@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className=" ">
+    <div className=" flex flex-col gap-[30px]">
       <div>
         <h2
           className=" text-white text-[43px]
@@ -12,18 +12,10 @@ const Experience = () => {
         >
           My Expereience
         </h2>
-        <p
-          className=" text-[#BDBDC1] leading-7 mb-5
-        max-Laptop:text-[13px] max-Laptop:leading-5 max-mobile:mb-9
-        "
-        >
-          I don’t just write code — I’ve built and deployed websites, solved
-          real bugs, and worked across the stack when needed.{" "}
-        </p>
       </div>
 
-      <div
-        className=" grid gap-[20px] grid-cols-2  h-[300px] overflow-hidden overflow-y-auto custom-scroll
+      {/* <div
+        className=" grid gap-[20px] grid-cols-2  h-[400px] overflow-hidden overflow-y-auto custom-scroll
       max-mobile:grid-cols-1
       "
       >
@@ -86,7 +78,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

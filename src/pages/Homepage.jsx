@@ -14,11 +14,11 @@ const Homepage = () => {
 
       <Numbers />
 
-      {/* <div id="resume" className=" h-[10px] mb-[70px]"></div>
+      <div id="resume" className=" h-[10px] mb-[70px]"></div>
       <h2 className=" width text-center max-tablet:text-4xl text-5xl bg-[#dadadb] font-semibold  ">
         RESUME
       </h2>
-      <Resume /> */}
+      <Resume />
 
       {/* <div id="work" className=" h-[10px] mb-[70px]"></div>
       <h2 className=" width text-center max-tablet:text-4xl  text-5xl bg-[#dadadb] font-semibold">

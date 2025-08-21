@@ -24,11 +24,19 @@ const Hero = () => {
         </div>
         <div className=" w-[90%] max-tablet:mx-auto">
           <p
-            className="text-[#dadadb] text-[13px] mb-4
+            className="text-[#dadadb] text-[15px] mb-4
           max-tablet:text-center max-tablet:text-[17px]
           max-mobile:text-[13px]
           "
-          >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sequi, odit libero nisi suscipit blanditiis dolores deserunt ipsa impedit quod iure molestias aspernatur quisquam expedita dicta, reprehenderit doloribus, rem quo.
+          >
+            A Front-End Web Developer, and Creative Visual Storyteller. I build
+            responsive, user-friendly web solutions with React.js, Tailwind CSS
+            and Javascript, while crafting powerful visual content through
+            photography and cinematography.
+            <br /> From coding sleek interfaces to capturing iconic brand
+            moments, I blend tech skills and creative vision to deliver results
+            that inspire and perform.
+            <br />
           </p>
           <div
             className=" flex  gap-6

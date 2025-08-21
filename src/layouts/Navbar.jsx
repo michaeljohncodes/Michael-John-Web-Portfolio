@@ -68,7 +68,7 @@ const Navbar = () => {
         </main>
 
         {menu && (
-          <div className=" text-[16px] flex flex-col z-50 h-screen py-10 px-6 items-center gap-[20px] text-white">
+          <div className=" text-[15px] flex flex-col z-50 h-screen py-10 px-6 items-center gap-[30px] text-white">
             <a onClick={() => setMenu(!menu)} href="#home">
               <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
                 Home
