@@ -17,13 +17,7 @@ const Projects = () => {
           </p>
           <p className="leading-7 text-[15px] text-[#BDBDC1] max-mobile:text-[12px] max-mobile:leading-6">
             Cloned a Real life website, to build more knowledge on how Pro Devs
-            create websites. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Amet nostrum beatae aliquam inventore omnis maxime animi
-            ipsam! Fugiat dolores earum sint id soluta numquam commodi. Esse
-            voluptatem ullam debitis commodi! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Voluptas veniam officiis, eos magni
-            assumenda numquam aut quas doloremque ipsa culpa enim illum debitis
-            est, consectetur quaerat totam aliquid quos eum.
+            create websites.
           </p>
           <div className="flex gap-3 text-[#08c17a] max-mobile:text-[13px]">
             <p>React.js,</p>

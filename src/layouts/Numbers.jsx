@@ -70,7 +70,7 @@ const Experience = () => {
         <p className="font-bold text-[56px] max-tablet:text-[40px]">
           {String(counts.projects).padStart(2, "0")}
         </p>
-        <p className="w-[60%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px]">
+        <p className="w-[40%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px]">
           Total Projects completed
         </p>
       </div>
@@ -78,13 +78,13 @@ const Experience = () => {
         <p className="font-bold text-[56px] max-tablet:text-[40px]">
           {String(counts.tech).padStart(2, "0")}
         </p>
-        <p className="w-[60%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px]">
+        <p className="w-[40%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px]">
           Creative Tools mastered
         </p>
       </div>
       <div className="gap-2 flex items-center w-[250px] max-tablet:flex-col max-tablet:gap-1 max-tablet:w-[100%]">
         <p className="font-bold text-[56px] max-tablet:text-[40px]">{commit}</p>
-        <p className="w-[60%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px] max-tablet:mt-">
+        <p className="w-[40%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px] max-tablet:mt-">
           Minimum Code commits{" "}
         </p>
       </div>
