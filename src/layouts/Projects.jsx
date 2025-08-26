@@ -63,13 +63,13 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
 
 export default Projects;
 // https://piggyvest-orpin.vercel.app/                         https://github.com/michaeljohncodes/Piggyvest
-// https://calculator-chi-eight-53.vercel.app/
+// https://calculator-chi-eight-53.vercel.app/         https://calculator-chi-eight-53.vercel.app/
 // https://moviesite-ivory-pi.vercel.app/          https://github.com/michaeljohncodes/moviesite
 // https://moove-mu.vercel.app/
+// https://nomba.vercel.app/            https://github.com/michaeljohncodes/Nomba

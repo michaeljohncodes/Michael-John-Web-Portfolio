@@ -19,7 +19,7 @@ const Navbar = () => {
   // }, [menu]);
   return (
     <>
-      <div className="max-mobile:px-2  fixed w-full top-0 z-50   backdrop-blur-lg bg-[#1C1B22]/15">
+      <div className="max-mobile:px-2 fixed w-full top-0 z-50 backdrop-blur-lg bg-[#1C1B22]/15">
         <main className="width flex justify-between items-center h-20 ">
           <div className=" flex items-center gap-1 w-[35px]">
             <img src="" alt="" />
