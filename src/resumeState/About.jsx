@@ -8,8 +8,8 @@ const About = () => {
           About me
         </h2>
         <p
-          className=" text-[14px] text-white leading-7 
-        max-Laptop:text-[13px] max-Laptop:leading-5
+          className=" text-[15px] text-white leading-5 
+        max-Laptop:text-[15px] max-Laptop:leading-5
         "
         >
           A Front-End Web Developer, Creative Visual Storyteller, and Business

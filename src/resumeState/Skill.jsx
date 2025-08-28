@@ -6,7 +6,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
 import { FaGitAlt } from "react-icons/fa";
-import { TbBrandAdobeIllustrator, TbBrandAdobePhotoshop, TbBrandAdobePremier } from "react-icons/tb";
+import { TbBrandAdobePhotoshop, TbBrandAdobePremier } from "react-icons/tb";
+import { SiAdobelightroom } from "react-icons/si";
 import { TiVendorMicrosoft } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa";
 const Skill = () => {
@@ -45,16 +46,16 @@ const Skill = () => {
           <FaGitAlt size={50} />
         </div>
         <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
+          <TiVendorMicrosoft size={50} />
+        </div>
+        <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
+          <SiAdobelightroom size={50} />
+        </div>
+        <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
           <TbBrandAdobePhotoshop size={50} />
         </div>
         <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
-          <TbBrandAdobeIllustrator size={50} />
-        </div>
-        <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
           <TbBrandAdobePremier size={50} />
-        </div>
-        <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
-          <TiVendorMicrosoft size={50} />
         </div>
         <div className=" bg-[#28272B] w-[120px] h-[120px] items-center flex justify-center py-5 text-white hover:text-[#00FD9A] transition-colors ease-in-out duration-400 rounded">
           <FaGithub size={50} />

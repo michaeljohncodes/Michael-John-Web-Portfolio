@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import Photo from "../assets/11111.jpg";
 import { FaGithub } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import myCV from "../assets/Michael_John_Chukwunyem.pdf";
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
         </div>
         <div className=" w-[90%] max-tablet:mx-auto">
           <p
-            className="text-[#dadadb] text-[15px] mb-4
+            className="text-[#dadadb] text-[18px] mb-4
           max-tablet:text-center max-tablet:text-[17px]
           max-mobile:text-[13px]
           "
@@ -61,6 +62,18 @@ const Hero = () => {
             max-tablet:gap-7 max-mobile:gap-5
             "
             >
+              <a
+                href="https://linkedin.com/in/michaeljohnchukwunyem"
+                target="blank"
+              >
+                <div
+                  className=" border-[#dadadb] text-[#dadadb] border-2 w-fit p-2 rounded-full hover:bg-[#dadadb] hover:font-semibold hover:text-black transition-colors duration-500 ease-in-out
+              max-tablet:text-[24px] max-mobile:text-[18px] 
+              "
+                >
+                  <FaLinkedin />
+                </div>
+              </a>
               <a href="https://github.com/michaeljohncodes" target="blank">
                 <div
                   className=" border-[#dadadb] text-[#dadadb] border-2 w-fit p-2 rounded-full hover:bg-[#dadadb] hover:font-semibold hover:text-black transition-colors duration-500 ease-in-out
@@ -81,24 +94,6 @@ const Hero = () => {
               "
                 >
                   <FaWhatsapp />
-                </div>
-              </a>
-              <a href="#">
-                <div
-                  className=" border-[#dadadb] text-[#dadadb] border-2 w-fit p-2 rounded-full hover:bg-[#dadadb] hover:font-semibold hover:text-black transition-colors duration-500 ease-in-out
-              max-tablet:text-[24px] max-mobile:text-[18px] 
-              "
-                >
-                  <FiDownload />
-                </div>
-              </a>
-              <a href="#">
-                <div
-                  className=" border-[#dadadb] text-[#dadadb] border-2 w-fit p-2 rounded-full hover:bg-[#dadadb] hover:font-semibold hover:text-black transition-colors duration-500 ease-in-out
-              max-tablet:text-[24px] max-mobile:text-[18px] 
-              "
-                >
-                  <FiDownload />
                 </div>
               </a>
             </div>
