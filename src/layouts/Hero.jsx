@@ -30,13 +30,14 @@ const Hero = () => {
           max-mobile:text-[13px]
           "
           >
-            A Front-End Web Developer, and Creative Visual Storyteller. I build
+            A Full-Stack Web Developer currently focused in Front-End Web
+            development, and Creative Visual Storyteller. <br /> I build
             responsive, user-friendly web solutions with React.js, Tailwind CSS
             and Javascript, while crafting powerful visual content through
             photography and cinematography.
             <br /> From coding sleek interfaces to capturing iconic brand
-            moments, I blend tech skills and creative vision to deliver results
-            that inspire and perform.
+            moments, I blend my tech skills and creative vision to deliver
+            results that inspire and perform.
             <br />
           </p>
           <div
@@ -100,7 +101,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className=" border-2 rounded-[50%] overflow-clip min-w-[35%] pt-5 max-tablet:w-[35%] max-mobile:w-[35%]">
+      <div className=" border-2 rounded-[50%] overflow-clip min-w-[35%] bg-[#4c5154] pt-5 max-tablet:w-[35%] max-mobile:w-[35%]">
         <img src={Photo} alt="" className="w-[100%]" />
       </div>
     </div>

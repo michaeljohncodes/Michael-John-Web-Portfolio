@@ -6,17 +6,6 @@ import { CiMenuKebab } from "react-icons/ci";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
-  //   useEffect(() => {
-  //   if (menu) {
-  //     document.body.style.overflow = 'hidden';
-  //   } else {
-  //     document.body.style.overflow = '';
-  //   }
-
-  //   return () => {
-  //     document.body.style.overflow = ''; // cleanup just in case
-  //   };
-  // }, [menu]);
   return (
     <>
       <div className="max-mobile:px-2 fixed w-full top-0 z-50 backdrop-blur-lg bg-[#1C1B22]/15">
@@ -26,26 +15,25 @@ const Navbar = () => {
           </div>
           <div className=" text-[13px] flex font-medium items-center gap-2 text-[#dadadb] max-mobile:hidden">
             <a href="#home">
-              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-700 ease-in-out cursor-pointer">
                 Home
               </p>
             </a>
 
-            {/* <a href="#service"><p className=' hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer'>Services</p></a> */}
             <a href="#resume">
-              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-700 ease-in-out cursor-pointer">
                 Resume
               </p>
             </a>
 
             <a href="#work">
-              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-700 ease-in-out cursor-pointer">
                 Work
               </p>
             </a>
 
             <a href="#contact">
-              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className="border-2 border-[#1C1B22]  bg-[#1C1B22] py-1 px-5 rounded-xl hover:text-[#00FD9A] hover:border-[#00FD9A] transition-colors duration-700 ease-in-out cursor-pointer">
                 Contact
               </p>
             </a>
@@ -69,37 +57,37 @@ const Navbar = () => {
         </main>
 
         {menu && (
-          <div className=" text-[15px] flex flex-col z-50 h-screen py-10 px-6 items-center gap-[30px] text-white">
+          <div className=" text-[15px] flex flex-col z-50 h-screen py-30 px-6 items-center gap-[30px] text-white">
             <a onClick={() => setMenu(!menu)} href="#home">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className=" hover:text-[#00FD9A] transition-colors duration-700 ease-in-out cursor-pointer">
                 Home
               </p>
             </a>
             {/* <a onClick={() => setMenu(!menu)} href=""><p className=' hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer'>Services</p></a> */}
             <a onClick={() => setMenu(!menu)} href="#resume">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className=" hover:text-[#00FD9A] transition-colors duration-500 ease-in-out cursor-pointer">
                 Resume
               </p>
             </a>
             <a onClick={() => setMenu(!menu)} href="#work">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className=" hover:text-[#00FD9A] transition-colors duration-500 ease-in-out cursor-pointer">
                 Work
               </p>
             </a>
             <a onClick={() => setMenu(!menu)} href="#contact">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className=" hover:text-[#00FD9A] transition-colors duration-500 ease-in-out cursor-pointer">
                 Contact
               </p>
             </a>
             <a onClick={() => setMenu(!menu)} href="#contact">
-              <p className=" hover:text-[#00FD9A] transition-colors duration-150 ease-in-out cursor-pointer">
+              <p className=" hover:text-[#00FD9A] transition-colors duration-500 ease-in-out cursor-pointer">
                 Hire me
               </p>{" "}
             </a>
           </div>
         )}
       </div>
-      <div className="h-[60px]"></div>
+      <div className="h-[60px] "></div>
     </>
   );
 };

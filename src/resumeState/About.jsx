@@ -12,9 +12,10 @@ const About = () => {
         max-Laptop:text-[15px] max-Laptop:leading-5
         "
         >
-          A Front-End Web Developer, Creative Visual Storyteller, and Business
-          Strategist with a knack for turning ideas into impactful digital and
-          visual experiences.
+          A Full-Stack Web Developer currently focused in Front-End Web
+          development, a Creative Visual Storyteller, and Business Strategist
+          with a knack for turning ideas into impactful digital and visual
+          experiences.
           <br />
           <br /> With hands-on expertise in React.js, JavaScript and Tailwind
           CSS, I build responsive, user-friendly web solutions that solve

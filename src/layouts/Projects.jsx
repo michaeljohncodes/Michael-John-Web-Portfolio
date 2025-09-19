@@ -7,6 +7,7 @@ import piggy2 from "../assets/piggy-mobile.png";
 const Projects = () => {
   return (
     <div className=" flex-col flex gap-30 max-tablet:gap-22 my-[80px]  max-mobile:px-4">
+      {/* piggyvest */}
       <div className="cursor-pointer width flex justify-between items-center gap-[20px] max-tablet:flex-col">
         <div className="max-w-[50%] flex flex-col gap-5 max-tablet:w-full max-mobile:gap-3">
           <div className=" flex gap-[30px] items-center">
@@ -18,14 +19,8 @@ const Projects = () => {
             </p>
           </div>
           <p className=" w-[100%] leading-7 text-[15px] text-[#BDBDC1] max-mobile:text-[12px] max-mobile:leading-6">
-            Cloned a Real life website, to build more knowledge on how Pro Devs
-            create websites. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Amet nostrum beatae aliquam inventore omnis maxime animi
-            ipsam! Fugiat dolores earum sint id soluta numquam commodi. Esse
-            voluptatem ullam debitis commodi! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Voluptas veniam officiis, eos magni
-            assumenda numquam aut quas doloremque ipsa culpa enim illum debitis
-            est, consectetur quaerat totam aliquid quos eum.
+            Cloned a Real life website, to gain more knowledge on how Pro Devs
+            create websites.
           </p>
           <div className="flex gap-3 text-[#08c17a] max-mobile:text-[13px]">
             <p>React.js,</p>
@@ -64,6 +59,7 @@ const Projects = () => {
         </div>
       </div>
 
+      {/* movie app */}
       <div className="cursor-pointer width flex justify-between items-center gap-[20px] max-tablet:flex-col">
         <div className="max-w-[50%] flex flex-col gap-5 max-tablet:w-full max-mobile:gap-3">
           <div className=" flex gap-[30px] items-center">
@@ -75,14 +71,11 @@ const Projects = () => {
             </p>
           </div>
           <p className=" w-[100%] leading-7 text-[15px] text-[#BDBDC1] max-mobile:text-[12px] max-mobile:leading-6">
-            Cloned a Real life website, to build more knowledge on how Pro Devs
-            create websites. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Amet nostrum beatae aliquam inventore omnis maxime animi
-            ipsam! Fugiat dolores earum sint id soluta numquam commodi. Esse
-            voluptatem ullam debitis commodi! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Voluptas veniam officiis, eos magni
-            assumenda numquam aut quas doloremque ipsa culpa enim illum debitis
-            est, consectetur quaerat totam aliquid quos eum.
+            Created a Netflix like movie app, where users get to see a list of
+            movies by their popularity and trends. Consumed an API from TMBD and
+            created a beautiful and aesthetically pleasing view for the users.
+            This website will also include the search option for a list of
+            available movies in the database.
           </p>
           <div className="flex gap-3 text-[#08c17a] max-mobile:text-[13px]">
             <p>React.js,</p>
@@ -113,14 +106,15 @@ const Projects = () => {
           }
         >
           <div className="w-[450px] hover:w-[480px] transition-all duration-400 ease-in-out max-Laptop:hover:w-[450px] max-tablet:transition-none">
-            <img src={piggy} alt="" />
+            <img src={""} alt=" wider image" />
           </div>
           <div className="w-[200px] absolute top-10 left-6 max-Laptop:w-[140px] max-tablet:hidden">
-            <img src={piggy2} alt="" />
+            <img src={""} alt=" smaller image" />
           </div>
         </div>
       </div>
 
+      {/* calculator App */}
       <div className="cursor-pointer width flex justify-between items-center gap-[20px] max-tablet:flex-col">
         <div className="max-w-[50%] flex flex-col gap-5 max-tablet:w-full max-mobile:gap-3">
           <div className=" flex gap-[30px] items-center">
@@ -132,19 +126,12 @@ const Projects = () => {
             </p>
           </div>
           <p className=" w-[100%] leading-7 text-[15px] text-[#BDBDC1] max-mobile:text-[12px] max-mobile:leading-6">
-            Cloned a Real life website, to build more knowledge on how Pro Devs
-            create websites. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Amet nostrum beatae aliquam inventore omnis maxime animi
-            ipsam! Fugiat dolores earum sint id soluta numquam commodi. Esse
-            voluptatem ullam debitis commodi! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Voluptas veniam officiis, eos magni
-            assumenda numquam aut quas doloremque ipsa culpa enim illum debitis
-            est, consectetur quaerat totam aliquid quos eum.
+            Created a calculator App for everyday mathematical operations. More
+            complex operations to be implemented in future.
           </p>
           <div className="flex gap-3 text-[#08c17a] max-mobile:text-[13px]">
-            <p>React.js,</p>
-            <p>Tailwind.css,</p>
-            <p>React State</p>
+            <p>Javascript and</p>
+            <p>CSS.</p>
           </div>
           <div className="w-[95%] h-[1px] bg-[#BDBDC1] mb-3"></div>
           <div className="flex gap-5 max-tablet:mx-auto max-tablet:my-3 max-mobile:my-0">
@@ -176,10 +163,10 @@ const Projects = () => {
           }
         >
           <div className="w-[450px] hover:w-[480px] transition-all duration-400 ease-in-out max-Laptop:hover:w-[450px] max-tablet:transition-none">
-            <img src={piggy} alt="" />
+            <img src={""} alt=" wider image" />
           </div>
           <div className="w-[200px] absolute top-10 left-6 max-Laptop:w-[140px] max-tablet:hidden">
-            <img src={piggy2} alt="" />
+            <img src={""} alt=" smaller image" />
           </div>
         </div>
       </div>
@@ -188,7 +175,6 @@ const Projects = () => {
 };
 
 export default Projects;
-
 
 // https://piggyvest-orpin.vercel.app/                         https://github.com/michaeljohncodes/Piggyvest
 // https://calculator-chi-eight-53.vercel.app/         https://github.com/michaeljohncodes/Calculator
