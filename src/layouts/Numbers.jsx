@@ -24,7 +24,7 @@ const Experience = () => {
   const [counts, setCounts] = useState({
     experience: 0,
     projects: 0,
-    tech: 0,
+    tools: 0,
   });
 
   useEffect(() => {
@@ -33,13 +33,13 @@ const Experience = () => {
         const next = { ...prev };
 
         if (next.experience < 10) next.experience += 1;
-        if (next.projects < 20) next.projects += 1;
-        if (next.tech < 8) next.tech += 1;
+        if (next.projects < 4) next.projects += 1;
+        if (next.tools < 8) next.tools += 1;
 
         if (
           next.experience >= 10 &&
           next.projects >= 20 &&
-          next.tech >= 8
+          next.tools >= 8
           
         ) {
           clearInterval(interval);
@@ -71,12 +71,12 @@ const Experience = () => {
           {String(counts.projects).padStart(2, "0")}
         </p>
         <p className="w-[40%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px]">
-          Total Projects completed
+          Front-End Projects completed
         </p>
       </div>
       <div className="gap-2 flex items-center w-[250px] max-tablet:flex-col max-tablet:gap-1 max-tablet:w-[100%]">
         <p className="font-bold text-[56px] max-tablet:text-[40px]">
-          {String(counts.tech).padStart(2, "0")}
+          {String(counts.tools).padStart(2, "0")}
         </p>
         <p className="w-[40%] text-[#dadadb] max-tablet:w-full max-tablet:text-[12px]">
           Creative Tools mastered

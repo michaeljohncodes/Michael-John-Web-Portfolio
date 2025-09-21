@@ -10,7 +10,7 @@ const Experience = () => {
         max-mobile:text-[32px]
         "
         >
-          My Expereience
+          My Experience
         </h2>
       </div>
 
